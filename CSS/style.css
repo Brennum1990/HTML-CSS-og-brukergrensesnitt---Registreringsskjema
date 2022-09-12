@@ -1,0 +1,117 @@
+body {
+	height: fit-content;
+	display: flex;
+	justify-content: center; 
+	color: white;
+	margin-top: 25px;
+}
+.registration-form {
+	margin-top: 75px;
+	width: 50%;
+	padding: 20px;
+	height: fit-content;
+	background-color: black;
+	border: 5px solid black;
+	border-radius: 15px;
+	opacity: 85%;
+	font-size: 20px;
+	position: fixed;
+	direction: ltr;
+	text-align: center;
+	vertical-align: auto;
+}
+fieldset {
+	border-radius: 15px;
+}
+.bg {
+	background-image: url(../Assets/forest.jpeg);
+	height: 100vh;
+	width: 100vw;
+	background-position: center;	
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: fixed;
+	z-index: -1;
+	top: 0;
+	left: 0;
+}
+div {
+	display: block;
+} 
+.terms:hover {
+	font-style: bold;
+	color: rgb(110, 149, 110);
+}
+input {
+	font-size: 20px;
+	width: 50%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	border-radius: 15px;
+	box-sizing: border-box;
+	align-items: center;
+}
+.gender {
+	text-align: left;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	column-count: 2;
+}
+.button {
+	font-size: 25px;
+	justify-self: center;
+	cursor: pointer;
+}
+h1 h2 h3 {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+.H1 {
+	font-size: 50px;
+	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	border: 5px solid black;
+	border-radius: 15px;
+	z-index: 1;
+}
+.H2 {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	z-index: 2;
+	font-family: "Pacifico";
+}
+.H3 {
+	font-size: 35px;
+	text-align: center;
+	color:white;
+}
+.checkboxes {
+	display: flex;
+	gap: 10px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+.checkmark {
+	text-align: left;
+}
+/*.container {
+	display: block;
+	position: relative;
+	padding-left: 35px;
+	margin-bottom: 12px;
+	cursor: pointer;
+	font-size: 22px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+.container input:checked ~ .checkmark {
+	background-color: #2196F3;
+}
+.man .woman {
+ justify-items: center;
+} */
