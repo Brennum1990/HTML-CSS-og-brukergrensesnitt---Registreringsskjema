@@ -1,28 +1,29 @@
 body {
-	height: fit-content;
-	display: flex;
-	justify-content: center; 
 	color: white;
-	margin-top: 25px;
+	font-family: 'Lucida Sans';
+	font-size: 1.5rem;
+	height: 100%;
 }
+
 .registration-form {
-	margin-top: 75px;
-	width: 50%;
-	padding: 20px;
-	height: fit-content;
-	background-color: black;
-	border: 5px solid black;
+	left: 50%;
+	top: 50%;
+	width: 35vw;
+	height: 70vh;
+	padding: 1rem;
+	background-color: rgba(0,0,0,.5);
+	border: 3px solid black;
 	border-radius: 15px;
-	opacity: 85%;
-	font-size: 20px;
-	position: fixed;
-	direction: ltr;
+	position: relative;
+	display: inline-block;
 	text-align: center;
-	vertical-align: auto;
 }
+
 fieldset {
 	border-radius: 15px;
+	background-color: rgba(0,0,0,.8);
 }
+
 .bg {
 	background-image: url(../Assets/forest.jpeg);
 	height: 100vh;
@@ -35,58 +36,61 @@ fieldset {
 	top: 0;
 	left: 0;
 }
-div {
-	display: block;
-} 
+
 .terms:hover {
 	font-style: bold;
+	transform: scale(1.02);
 	color: rgb(110, 149, 110);
+	cursor: pointer;
 }
 input {
 	font-size: 20px;
-	width: 50%;
+	width: fit-content;
 	padding: 12px 20px;
 	margin: 8px 0;
 	border-radius: 15px;
 	box-sizing: border-box;
 	align-items: center;
 }
+
+.username {
+	width: fit-content;
+}
+
 .gender {
-	text-align: left;
+	text-align: center;
 	display: flex;
 	flex-wrap: nowrap;
 	flex-direction: column;
 	column-count: 2;
 }
-.button {
-	font-size: 25px;
-	justify-self: center;
-	cursor: pointer;
-}
-h1 h2 h3 {
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-}
-.H1 {
+
+.headline {
 	font-size: 50px;
 	font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	border: 5px solid black;
 	border-radius: 15px;
 	z-index: 1;
+	left: 50%;
+	top: 50%;
+	transform: translate(50%, 50%);
 }
-.H2 {
+
+.tagline {
 	display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
 	z-index: 2;
 	font-family: "Pacifico";
+	left: 50%;
+	left: 50%;
+	top: 50%;
+	transform: translate(50%, 50%);
 }
-.H3 {
+
+.headline__form {
 	font-size: 35px;
 	text-align: center;
 	color:white;
 }
+
 .checkboxes {
 	display: flex;
 	gap: 10px;
@@ -94,9 +98,11 @@ h1 h2 h3 {
 	flex-wrap: wrap;
 	margin-top: 20px;
 }
+
 .checkmark {
 	text-align: left;
 }
+
 /*.container {
 	display: block;
 	position: relative;
